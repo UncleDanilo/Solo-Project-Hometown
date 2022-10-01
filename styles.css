@@ -1,0 +1,154 @@
+@media (max-width: 1000px) {
+    #bodyid {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+  }
+
+@media (max-width: 1000px) {
+    #activity {
+        flex-direction: column;
+        height: 600px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .img1-and-text {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@font-face {
+    font-family: natur;
+    src: url(Natures.otf);
+  }
+
+html {
+    background: url("images/forest.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 0px;
+    font-family: natur;
+}
+
+/* header */
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto 0px;
+    max-width: 1000px;
+    background-image: url("images/17mai.jpg");
+    background-position: center 600px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    min-height: 500px;
+    color: black;
+    text-shadow: 0 0 5px white;
+}
+
+#header-1 {
+    background-color: #F1F3F2;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 25px 0 10px 0;
+    box-shadow: 0 0 2px black; 
+}
+
+#header-2 {
+    background-color: #F1F3F2;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 30px 10px;
+    box-shadow: 0 0 2px black;
+}
+
+/*activity section */
+
+#activity {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F1F3F2;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-shadow: 0 0 1px black;
+    margin: 0px auto;
+    max-width: 1000px;
+}
+ 
+#top-three {
+    font-size: 25px;
+    background-color: #F1F3F2;
+    margin: 0;
+    padding: 30px 0;
+    text-shadow: 0 0 1px black;
+    display: block;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+.img1 {
+    width: 220px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+}
+
+.img1-and-text {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#gulset-img {
+    margin-top: 25px;
+}
+
+.activity-text {
+    max-width: 215px;
+}
+
+/* guide section */
+
+#guide {
+    display: flex;
+    color: white;
+    margin-top: 40px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#guide-text {
+    max-width: 400px;
+    margin-left: 10px;
+    text-shadow: 0 0 10px black;
+    font-size: larger;
+}
+
+#stick {
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+}
+
+@media (max-width: 1000px) {
+    .img1 {
+        margin-right: 20px;
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 1000px) {
+    #gulset-img {
+        margin-top: 0px;
+    }
+}
